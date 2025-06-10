@@ -62,8 +62,8 @@ def get_info(server, username, password, output_file):
 
 if __name__ == "__main__":
     get_info(
-        server = "172.17.74.24",
-        username = "veganet\dcicciarelli",
+        server = "",
+        username = "",
         password = getpass.getpass(),
         output_file = "test_output.json",
     )
