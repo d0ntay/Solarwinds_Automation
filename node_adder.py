@@ -8,8 +8,8 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Set up SolarWinds connection
-TARGET_SW_HOST = "172.17.74.25"
-USERNAME = "veganet\\dcicciarelli"  # Make sure to double backslash
+TARGET_SW_HOST = ""
+USERNAME = ""  # Make sure to double backslash
 PASSWORD = getpass.getpass("Enter your SolarWinds password: ")
 JSON_FILE = "nodes_export_with_snmpv3.json"
 
